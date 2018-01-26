@@ -94,6 +94,7 @@ module.exports = function(packageName, callback) {
     function getGitHubInfo(packageInfo, cb) {
       if (packageInfo.repository && packageInfo.repository.url) {
           var githubCredentials = parseGithubUrl(packageInfo.repository.url);
+          delete packageInfo.repository;
           if(githubCredentials) {
             var githubEndpoint = GITHUB_API_ENDPOINT+'/'+githubCredentials.username+'/'+githubCredentials.repos;
             var options = {

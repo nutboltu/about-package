@@ -19,16 +19,20 @@ aboutPackage('express', function(err, info) {
   else console.log(info);
 });
 ```
-This will output
+## Output
+| Attribute              | Type       | Description |
+|-------------------|------------|-------------|
+| `name`         | string  | Package name |
+| `version`  | string  | Latest version of that npm package |
+| `description`  | string  | Description of that npm package
+| `license`  | string  | Type of license of that npm package
+| `downloads`  | object  | This attribute contains number of download counts on `last day`, `last week` and `last month`
+| `github`  | object  | This attribute contains github information of that npm package. e.g: `stars`, `forks`, `open issues`, `watchers`, `last updated` and `created`
+## Sample Output
 ```javascript
 { 
   name: 'express',
   version: '4.16.2',
-  repository:
-   { 
-     type: 'git',
-     url: 'git+https://github.com/expressjs/express.git' 
-    },
   description: 'Fast, unopinionated, minimalist web framework',
   license: 'MIT',
   downloads: {
