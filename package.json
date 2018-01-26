@@ -1,6 +1,6 @@
 {
   "name": "about-package",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A lightweight package that retrieve the information of a npm package",
   "main": "index.js",
   "scripts": {

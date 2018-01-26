@@ -2,7 +2,6 @@
 src/
 test/
 docs/
-README.md
 LICENSE
 .babelrc
 .gitignore
