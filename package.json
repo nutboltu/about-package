@@ -1,0 +1,25 @@
+{
+  "name": "about-package",
+  "version": "1.0.0",
+  "description": "A lightweight package that retrieve the information of a npm package",
+  "main": "index.js",
+  "scripts": {
+    "example": "node example.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nutboltu/about-package.git"
+  },
+  "keywords": [
+    "package-info",
+    "package details",
+    "package repos"
+  ],
+  "dependencies": {
+    "async": "^2.5.0",
+    "request": "^2.83.0",
+    "typeco": "^0.0.2"
+  },
+  "author": "Farhad Yasir",
+  "license": "MIT"
+}
