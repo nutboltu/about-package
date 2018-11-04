@@ -1,6 +1,6 @@
 var aboutPackage = require('./index');
 
-aboutPackage('express', function(err, info) {
+aboutPackage('react', function(err, info) {
   if (err) {
     console.error(err);
   }
