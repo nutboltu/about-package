@@ -1,11 +1,6 @@
 .vscode
-src/
-test/
 docs/
 LICENSE
-.babelrc
 .gitignore
-.eslintignore
-.eslintrc
 yarn.lock
 .travis.yml

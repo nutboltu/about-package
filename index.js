@@ -6,7 +6,6 @@ var request = require('request');
 var REGISTRY_ENDPOINT = 'https://registry.npmjs.org';
 var DOWNLOAD_COUNT_ENDPOINT = 'https://api.npmjs.org/downloads/point';
 var GITHUB_API_ENDPOINT= 'https://api.github.com/repos';
-var STRING_EMPTY = '';
 
 function parseGithubUrl(url) {
   if (url.indexOf('github')) {

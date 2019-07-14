@@ -11,14 +11,16 @@
     "url": "https://github.com/nutboltu/about-package.git"
   },
   "keywords": [
+    "about-package",
+    "about",
     "package-info",
     "package details",
-    "package repos"
+    "package repository detail"
   ],
   "dependencies": {
     "async": "^2.5.0",
     "request": "^2.83.0",
-    "typeco": "^0.0.2"
+    "typeco": "^1.0.0"
   },
   "author": "Farhad Yasir",
   "license": "MIT"
