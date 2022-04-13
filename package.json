@@ -18,7 +18,7 @@
     "package repository detail"
   ],
   "dependencies": {
-    "async": "^2.5.0",
+    "async": "^3.2.2",
     "request": "^2.83.0",
     "typeco": "^1.0.0"
   },
